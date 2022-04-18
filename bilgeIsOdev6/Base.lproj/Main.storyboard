@@ -38,32 +38,15 @@
                                     <action selector="basla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WQh-de-n7Z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFO-8s-p6y">
-                                <rect key="frame" x="20" y="489" width="374" height="74"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="90p-34-58p"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Dur">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3v-ml-c6e"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TFO-8s-p6y" firstAttribute="centerX" secondItem="cir-Jf-RKa" secondAttribute="centerX" id="5gl-Am-qJG"/>
                             <constraint firstItem="cir-Jf-RKa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="336" id="LbW-Az-Jtf"/>
                             <constraint firstItem="03b-fX-zam" firstAttribute="trailing" secondItem="cir-Jf-RKa" secondAttribute="trailing" id="Orp-OK-Sfw"/>
                             <constraint firstItem="cir-Jf-RKa" firstAttribute="centerX" secondItem="03b-fX-zam" secondAttribute="centerX" id="RF0-Zo-TSv"/>
                             <constraint firstItem="03b-fX-zam" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dei-pM-dYT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TFO-8s-p6y" secondAttribute="bottom" constant="299" id="iu7-a4-RWI"/>
-                            <constraint firstItem="cir-Jf-RKa" firstAttribute="trailing" secondItem="TFO-8s-p6y" secondAttribute="trailing" id="l1A-7B-dfR"/>
                             <constraint firstItem="03b-fX-zam" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="105" id="ocN-Oq-ocQ"/>
-                            <constraint firstItem="cir-Jf-RKa" firstAttribute="leading" secondItem="TFO-8s-p6y" secondAttribute="leading" id="rJh-hN-dGi"/>
                             <constraint firstItem="03b-fX-zam" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tSS-Nl-hqB"/>
                             <constraint firstItem="03b-fX-zam" firstAttribute="leading" secondItem="cir-Jf-RKa" secondAttribute="leading" id="xRK-7J-lgT"/>
                         </constraints>

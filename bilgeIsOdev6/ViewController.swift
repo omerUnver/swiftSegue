@@ -23,13 +23,14 @@ class ViewController: UIViewController {
        
     }
    
-    @IBAction func stop(_ sender: Any) {
-            zamanlayici.invalidate()
-            yonlendirici()
-    }
+  
     @objc func timerApp(){
         saat.text = String(zaman)
         zaman += 1
+        if zaman == 6 {
+            zamanlayici.invalidate()
+            yonlendirici()
+        }
         }
     
     func yonlendirici(){
